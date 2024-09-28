@@ -1,0 +1,59 @@
+Change Log
+2.0.1-19
+Primary Updates
+. New (incomplete) ja_jp.json lang file. Most untranslated lines are omitted.
+. Reduced Virtuous Treaty cube-count from 276 to 244.
+. Reduced Virtuous Treaty texture resolution.
+. Reduced Virtuous Contract cube-count from 176 to 131.
+. Reduced Virtuous Contract texture resolution.
+. Tweaked Virtuous Contract model.
+. Corrected names of Pod models.
+. Added Japanese names to CIT models.
+
+Secondary Updates
+. New (incomplete) ja_identifiers.txt.
+. New (incomplete) ja_jp_lang_items.txt.
+. Adjusted Emil scarf model.
+. Adjusted Ro-Shi texture.
+. Removed fishing rod model replacer.
+. Renamed edited_lang_items.txt to en_us_lang_items.txt.
+. Renamed identifiers.txt to en_identifiers.txt.
+. Updated CIT Virtuous Contract and Treaty models.
+. Updated license.txt.
+
+
+
+2.0.0-18
+Primary Updates
+. New Pascal model and texture. Replaces Iron Golem.
+. New Virtuous Dignity model and texture. Replaces Iron Sword.
+. New Virtuous Grief model and texture. Replaces Golden Sword.
+. New Ko-Shi (spider) model and texture (version 2). Increased model and texture details.
+. New Ro-Shi (spider) texture.
+. New So-Shi (cave spider) model and texture. Uses the same model as Ko-Shi.
+. New item frame model for vertical display of items in normal size.
+. New Emil model and texture. Replaces Wandering Trader.
+. New Hegel head item.
+. Replaced Resistance Member (Villager) model with Small Stubby model.
+. Reduced Emil's Face (ender eye) voxel-count from 130 to 71 and increased texture resolution from 16x to 128x.
+. Increased Small and Large Chest model detail.
+. Increased Small and Large Trapped Chest model detail.
+
+Secondary Updates
+. New Ko-Shi/Ro-Shi/So-Shi CEM animations.
+. New Emil animations.
+. New Pascal crackiness indicators.
+. New Small and Large Chest texture files.
+. New Small and Large Trapped Chest texture files.
+. Enabled CEM Random for Spider: 50% Ko-Shi, 50% Ro-Shi.
+. Adjusted CEM animations for Small and Medium Bipeds.
+. Adjusted Virtuous Treaty texture and handle model.
+. Adjusted display properties of Virtuous Treaty, Virtuous Contract, Emil's Face, Purple Enemy Projectile, Black Box, Beastlord, and Pod.
+. Enabled Virtuous Dignity and Virtuous Grief for Optifine CIT functionality.
+. Added base villager texture and emissive overlay for Small Stubby (Villager).
+. Removed all Resistance Member-related textures.
+. Updated readme.txt.
+. Updated idendifiers.txt.
+. Updated license.txt.
+. Updated credits.txt.
+. Updated edited_lang_items.txt and EN US lang file.

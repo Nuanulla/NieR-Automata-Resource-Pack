@@ -1,0 +1,4 @@
+Known Issues
+. Warden, Blaze, Pillager, Ghast models do not detect aggression. (OptiFine Issue 7458)
+. Outdated model replacers: Enderman, Skeleton Horse, Wither, Ender Dragon, Spider, Cave Spider, Iron Golem.
+. Bed color-specific variants still unfinished.

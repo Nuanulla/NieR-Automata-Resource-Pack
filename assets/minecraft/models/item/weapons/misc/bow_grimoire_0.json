@@ -1,0 +1,94 @@
+{
+	"credit": "Designed by Zoombaz with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"texture": "item/weapons/misc/grimoire_0"
+	},
+	"elements": [
+		{
+			"name": "Box3",
+			"from": [6.75, 5.5, 7],
+			"to": [10.75, 10.75, 7.25],
+			"faces": {
+				"north": {"uv": [0, 0.5, 4, 5.75], "texture": "#texture", "cullface": "north"},
+				"east": {"uv": [6, 0.5, 6.25, 5.75], "texture": "#texture"},
+				"south": {"uv": [10.75, 0.5, 14.75, 5.75], "texture": "#texture"},
+				"west": {"uv": [4.25, 0.5, 4.5, 5.75], "texture": "#texture", "cullface": "west"},
+				"up": {"uv": [0, 0, 4, 0.25], "texture": "#texture", "cullface": "up"},
+				"down": {"uv": [0, 0, 4, 0.25], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Box3",
+			"from": [6.75, 5.5, 8.75],
+			"to": [10.75, 10.75, 9],
+			"faces": {
+				"north": {"uv": [10.75, 0.5, 14.75, 5.75], "texture": "#texture"},
+				"east": {"uv": [6, 0.5, 6.25, 5.75], "texture": "#texture"},
+				"south": {"uv": [6.5, 0.5, 10.5, 5.75], "texture": "#texture"},
+				"west": {"uv": [4.25, 0.5, 4.5, 5.75], "texture": "#texture", "cullface": "west"},
+				"up": {"uv": [0, 0, 4, 0.25], "texture": "#texture", "cullface": "up"},
+				"down": {"uv": [0, 0, 4, 0.25], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Box3",
+			"from": [10.5, 5.5, 7.25],
+			"to": [10.75, 10.75, 8.75],
+			"faces": {
+				"east": {"uv": [4.75, 0.5, 5.75, 5.75], "texture": "#texture"},
+				"west": {"uv": [4.75, 0.5, 5.75, 5.75], "texture": "#texture"},
+				"up": {"uv": [4.75, 0, 5.75, 0.25], "texture": "#texture", "cullface": "up"},
+				"down": {"uv": [4.75, 0, 5.75, 0.25], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Box3",
+			"from": [7, 5.75, 7.25],
+			"to": [10.5, 10.5, 8.75],
+			"faces": {
+				"west": {"uv": [4.75, 7.25, 5.75, 12], "texture": "#texture"},
+				"up": {"uv": [0, 6, 3.75, 7], "texture": "#texture"},
+				"down": {"uv": [0, 6, 3.75, 7], "texture": "#texture"}
+			}
+		}
+	],
+	"overrides": [
+		{"predicate": {"pulling": 1}, "model": "item/weapons/misc/bow_grimoire_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.9}, "model": "item/weapons/misc/bow_grimoire_pulling_1"}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [70, 0, 0],
+			"translation": [5, -5, 18],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [70, 0, 0],
+			"translation": [6.5, -5, 18],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 12, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [1.5, 12, 0]
+		},
+		"ground": {
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"gui": {
+			"rotation":  [ 0, -155, 0 ],
+			"translation":  [ 1.7, 0, 0 ],
+			"scale":  [ 2.5, 2.5, 2.5 ]
+		},
+		"head": {
+			"translation": [-2.5, 12.521, 0],
+			"scale": [3, 3, 3]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [-2.5, -0.4, -19.5],
+			"scale": [3, 3, 3]
+		}
+	}
+}

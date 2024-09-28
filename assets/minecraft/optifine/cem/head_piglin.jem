@@ -1,0 +1,66 @@
+{
+	"credit": "Made by Benjamin with Blockbench",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"submodels": [
+				{
+					"id": "head_st",
+					"invertAxis": "xy",
+					"translate": [0, 4, -0.04167],
+					"boxes": [
+						{"coordinates": [-4, -4, -4.08333, 8, 8, 4], "textureOffset": [25, 44]},
+						{"coordinates": [-3.5, -3.5, -0.58333, 7, 7, 1], "textureOffset": [21, 67]},
+						{"coordinates": [-4, -4, 0.16667, 8, 8, 4], "textureOffset": [0, 36]}
+					],
+					"submodels": [
+						{
+							"id": "eyes",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"submodels": [
+								{
+									"id": "eyes_inactive",
+									"invertAxis": "xy",
+									"translate": [0, 0, -0.1],
+									"boxes": [
+										{"coordinates": [2, -0.5, -4.10833, 1, 1, 1], "textureOffset": [124, 6]},
+										{"coordinates": [-3, -0.5, -4.10833, 1, 1, 1], "textureOffset": [124, 6]}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_ear",
+			"id": "left_ear",
+			"invertAxis": "xy",
+			"translate": [4.5, -6, 0],
+			"rotate": [0, 0, -35],
+			"animations": [
+				{
+					"this.rz": 0
+				}
+			]
+		},
+		{
+			"part": "right_ear",
+			"id": "right_ear",
+			"invertAxis": "xy",
+			"translate": [-4.5, -6, 0],
+			"rotate": [0, 0, 35],
+			"animations": [
+				{
+					"this.rz": 0
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"credit": "Made by Benjamin through Blockbench",
+	"parent": "minecraft:block/fence_side",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "block/dark_oak_bar",
+		"particle": "block/dark_oak_bar"
+	},
+	"elements": [
+		{
+			"from": [7.5, 14, 0],
+			"to": [8.5, 16, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6.5, -3]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 7.5], "texture": "#0"},
+				"east": {"uv": [1, 6.5, 2, 8.5], "texture": "#0"},
+				"south": {"uv": [2, 2, 3, 9.5], "texture": "#0"},
+				"west": {"uv": [3, 8.5, 4, 10.5], "texture": "#0"},
+				"up": {"uv": [2, 1, 1, 0], "texture": "#0"},
+				"down": {"uv": [5, 1, 4, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.25, 0, 0],
+			"to": [8.75, 14, 1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, -2]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 7.5], "texture": "#0"},
+				"east": {"uv": [1.5, 1, 2, 8.5], "texture": "#0"},
+				"south": {"uv": [2, 2, 3, 9.5], "texture": "#0"},
+				"west": {"uv": [3.5, 3, 4, 10.5], "texture": "#0"},
+				"up": {"uv": [2, 1, 1, 0], "texture": "#0"},
+				"down": {"uv": [5, 1, 4, 2], "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,143 @@
+{
+    "parent": "item/weapons/large_swords/r-cruel_blood_oath",
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 99
+            },
+            "model": "item/weapons/large_swords/beastlord"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 100
+            },
+            "model": "item/weapons/small_swords/virtuous_contract"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 101
+            },
+            "model": "item/weapons/large_swords/virtuous_treaty"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 102
+            },
+            "model": "item/weapons/spears/virtuous_dignity"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 103
+            },
+            "model": "item/weapons/combat_bracers/virtuous_grief"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 104
+            },
+            "model": "item/weapons/small_swords/cruel_oath"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 105
+            },
+            "model": "item/weapons/large_swords/cruel_blood_oath"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 106
+            },
+            "model": "item/weapons/spears/cruel_arrogance"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 107
+            },
+            "model": "item/weapons/combat_bracers/cruel_lament"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 108
+            },
+            "model": "item/weapons/small_swords/machine_sword"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 109
+            },
+            "model": "item/weapons/large_swords/machine_axe"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 110
+            },
+            "model": "item/weapons/spears/machine_spear"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 111
+            },
+            "model": "item/weapons/combat_bracers/machine_head"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 112
+            },
+            "model": "item/weapons/small_swords/type-4o_sword"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 113
+            },
+            "model": "item/weapons/large_swords/type-4o_blade"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 114
+            },
+            "model": "item/weapons/spears/type-4o_lance"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 114
+            },
+            "model": "item/weapons/combat_bracers/type-4o_fist"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 116
+            },
+            "model": "item/weapons/small_swords/cypress_stick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 117
+            },
+            "model": "item/weapons/small_swords/faith"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 118
+            },
+            "model": "item/weapons/small_swords/iron_pipe"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 119
+            },
+            "model": "item/weapons/large_swords/iron_will"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 120
+            },
+            "model": "item/weapons/spears/spear_of_the_usurper"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 121
+            },
+            "model": "item/weapons/combat_bracers/emil_head"
+        }
+    ]
+}

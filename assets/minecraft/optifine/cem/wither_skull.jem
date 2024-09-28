@@ -1,0 +1,58 @@
+{
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"submodels": [
+				{
+					"id": "ring1",
+					"invertAxis": "xy",
+					"translate": [0, 0, -5],
+					"boxes": [
+						{"coordinates": [-1, -10, 0, 2, 20, 1], "textureOffset": [122, 107]},
+						{"coordinates": [-3, -9, 0, 6, 18, 1], "textureOffset": [108, 109]},
+						{"coordinates": [-6, -7, 0, 12, 14, 1], "textureOffset": [82, 113]},
+						{"coordinates": [-7, -6, 0, 14, 12, 1], "textureOffset": [52, 115]},
+						{"coordinates": [-10, -1, 0, 20, 2, 1], "textureOffset": [10, 125]},
+						{"coordinates": [-9, -3, 0, 18, 6, 1], "textureOffset": [14, 118]},
+						{"coordinates": [-8, -5, 0, 16, 10, 1], "textureOffset": [18, 107]},
+						{"coordinates": [-5, -8, 0, 10, 16, 1], "textureOffset": [106, 90]}
+					]
+				},
+				{
+					"id": "ring2",
+					"invertAxis": "xy",
+					"translate": [0, 0, 1],
+					"boxes": [
+						{"coordinates": [-1, -10, 0, 2, 20, 1], "textureOffset": [122, 107]},
+						{"coordinates": [-3, -9, 0, 6, 18, 1], "textureOffset": [108, 109]},
+						{"coordinates": [-6, -7, 0, 12, 14, 1], "textureOffset": [82, 113]},
+						{"coordinates": [-7, -6, 0, 14, 12, 1], "textureOffset": [52, 115]},
+						{"coordinates": [-10, -1, 0, 20, 2, 1], "textureOffset": [10, 125]},
+						{"coordinates": [-9, -3, 0, 18, 6, 1], "textureOffset": [14, 118]},
+						{"coordinates": [-8, -5, 0, 16, 10, 1], "textureOffset": [18, 107]},
+						{"coordinates": [-5, -8, 0, 10, 16, 1], "textureOffset": [106, 90]}
+					]
+				},
+				{
+					"id": "ring3",
+					"invertAxis": "xy",
+					"translate": [0, 0, 7],
+					"boxes": [
+						{"coordinates": [-1, -10, 0, 2, 20, 1], "textureOffset": [122, 107]},
+						{"coordinates": [-3, -9, 0, 6, 18, 1], "textureOffset": [108, 109]},
+						{"coordinates": [-6, -7, 0, 12, 14, 1], "textureOffset": [82, 113]},
+						{"coordinates": [-7, -6, 0, 14, 12, 1], "textureOffset": [52, 115]},
+						{"coordinates": [-10, -1, 0, 20, 2, 1], "textureOffset": [10, 125]},
+						{"coordinates": [-9, -3, 0, 18, 6, 1], "textureOffset": [14, 118]},
+						{"coordinates": [-8, -5, 0, 16, 10, 1], "textureOffset": [18, 107]},
+						{"coordinates": [-5, -8, 0, 10, 16, 1], "textureOffset": [106, 90]}
+					]
+				}
+			]
+		}
+	]
+}

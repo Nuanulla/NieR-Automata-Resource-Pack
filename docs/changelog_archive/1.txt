@@ -1,0 +1,358 @@
+Change Log
+1.0.0
+. Version number bump.
+   - Culminating release file.
+
+
+
+0.1.7-17
+Primary Updates
+. Renamed key_model-retexture_list.txt to identifiers.txt.
+. Updated CIT Virtuous Contract and Virtuous Treaty models.
+
+Secondary Updates
+. Removed Vex Elytra item and entity textures.
+. Removed squid retexture.
+. Removed silverfish retexture.
+. Removed fishing hook retexture.
+. Updated identifiers.txt.
+. Updated credits.txt.
+. Updated license.txt.
+. Changed filetree.
+
+
+
+0.1.6-16
+Primary Updates
+. New emissive overlays for vending machine access points (beds). 
+. Added mentions of some items, blocks, and entities in English US lang file. Entity mentions exclude mobs that were only retextured. Refer to key_model-retexture_list.txt to identify an item, block, or entity.
+
+Secondary Updates
+. Added edited_lang_items.txt to docs folder.
+. Fixed vending machine .jem texture path.
+. Fixed small chest .jem texture path.
+. Fixed small and large trapped chest .jem texture path.
+. Fixed Medium Biped lower arm z-fighting.
+. Attached Medium Biped arm animations to Vindicator leg x-axis rather than arm x-axis.
+. Altered Medium Biped right_arm animations to oppose left_arm's rather than limit animations to lower arm to account for held item.
+. Removed English US lang file mentions of any sound files or references to any file outside of the core resource pack. Further, removed all unnecessary (vanilla/unchanged) entries from English US lang file.
+. Removed sky0.png colormap.
+. Updated key_model-retexture_list.txt.
+. Updated credits.txt.
+. Updated readme.txt.
+
+
+
+0.1.5-15
+Primary Updates
+N/A
+
+Secondary Updates
+. Adjusted y-axis translation of Beauvoir frontmaskdeco.
+. Updated readme.txt
+. Removed panorama_overlay.png (menu background texture)
+
+
+
+0.1.4-14
+General Updates
+. Removed the following textures unrelated to Optifine modifications from this pack: Blaze, Spider, Cave Spider, Creeper, Drowned, Zombie, Husk, Enderman, and Ghast.
+
+Optifine-related Updates
+. New Wither Skull (projectile, not "wither skeleton skull") model. Model has been optimized beforehand.
+. New Beauvoir texture for initial invulnerable state on 'normal' spawn.
+. Altered Medium Biped Random texture weights; reduced Jean-Paul frequency.
+
+Other Fixes or Alterations
+. New Beauvoir texture file: Wither Skull texture is and must be embedded in Wither.png
+. Restructured CEM folder.
+. Moved all active Optifine textures to Vanilla paths - some replacing specific Vanilla retextures.
+. Removed certain duplicate textures originally serving as backups.
+. Removed old Wither Skull model that was discretely added in a previous update.
+. Updated license: very minor changes.
+. Updated key_model-retexture_list.
+
+
+
+0.1.3.1-13
+Minor changes to pack.mcmeta, changelog.txt, and archive file name.
+
+0.1.3-13
+General Updates
+. Updated license.
+
+Optifine-related Updates
+. New full Medium Biped robot model to replace Vindicator.
+. New Medium Exploder model and texture to replace Creeper. Medium exploder model version 2 based on Medium Biped model.
+. New Optifine Random Entities function for Vindicator: 85% Standard Med. Biped; 15% Jean-Paul (standard but with a black hat).
+. Improved Beauvoir texture details and accuracy.
+. Improved Beauvoir model accuracy in regard to crown, arm, mask, and other model parts. 
+. Remodeled Beauvoir hands.
+. Added new Beauvoir animations: head cape, head, mask deco.
+. Removed Nether Portal CTM. CF ISSUE #1.
+
+Other Fixes or Alterations
+. New Creeper torso animation.
+. Increased PNG file dimensions for the following entities: Wither (Beauvoir); Creeper (Medium Exploder).
+. Adjusted Beauvoir model groups.
+. Improved Beauvoir UV, model part texture locations.
+. Improved Beauvoir torso, head cape, and head rotations.
+. CEM folder restructured.
+
+
+
+0.1.2-12
+General Updates
+. Created a key_model-retexture_list.txt
+. Updated license.
+
+Optifine-related Updates
+. Improved texture details and accuracy to NieR:Automata game models, and increased texture file dimensions of the following models: Zombie (Small Stubby, City Ruins); Husk (Small Stubby, Desert Area); Drowned (Small Biped);  Blaze (Small Flyer); Ghast (Medium Flyer).
+
+Other Fixes or Alterations
+. Slight model changes to propeller, gun, and Stubby pilot y-axis position
+. Slight model changes to Stubby arm lengths
+. Removed two cubes from Husk mask
+. Adjusted Medium Quadruped head pivot point and straightened hind legs
+. Adjusted Medium Flyer model translation to be centered on original Ghast pivot point
+. Adjusted Medium Flyer's four separate flight unit's translations
+. Updated resource pack CEM part resources
+. Resolved potential "floating pixel stuck to head" issue with new Small Biped texture by changing arm-pole texture location
+. Created new "docs" folder to house documents, text files, and other related files
+. CEM folder restructured
+
+
+
+0.1.1-11
+General Updates
+. New Factory Lift Door model and texture. Replaces Iron Door.
+. New iron_door blockstate file. DO NOT TOUCH for as long as you use this pack's Iron Door (Factory Lift Door) model (model is kept in six files).
+. Master File: Separated sound resources. Sounds no longer needs to merge with core pack; it's now a drag-and-drop installation.
+. Uploaded new Sounds resource pack file.
+. Updated readme and license: Added info regarding newer updates and removed outdated info. 
+
+Optifine-related Updates
+. New Medium Quadruped model and texture. Replaces Skeleton Horse.
+. New Vending Machine model and texture. Replaces Bed. It's where you save your game in NieR:Automata.
+. New chest and trapped chest models and textures. Small and large chests have different models and textures.
+. New Small Biped model. Replaces Drowned.
+. Improved City Ruins and Desert Stubby Robot models. Redid Stubby Robot base body for a V2.
+. Improved Flyer models with new Stubby Robot base.
+. Improved texture layout for Stubby Robot and Flyer models.
+. Improved Beauvoir model and texture.
+. Added blade animations to So-Shi and Ko-Shi.
+. Added propeller animations to Small Flyer and Medium Flyer.
+
+Other Fixes or Alterations
+. Attached left_leg x-axis rotation to right_arm, and right_leg to left_arm, for Stubby Robots.
+. Removed z-axis rotation of arms for Desert and City Ruin Stubby Robots.
+. Removed one blade for propellers: Flyer model propellers have only one blade now (for each propeller unit, whereas each propeller used to have two blades).
+. Fixed z-fighting in Beauvoir's decoration.
+. Fixed z-fighting in So-Shi's top.
+. Fixed arm pivot points for Desert and City Ruin Stubby Robots.
+. Fixed uncentered and inconsistent length of propellers in Medium Flyer.
+. Adjusted color in So-Shi and Ko-Shi blades for potential z-fighting.
+. Adjusted new Pilot Stubby model for Small and Medium Flyer models.
+. Adjusted x-axis resting position for Desert and City Ruin Stubby Robots' arms.
+. Adjusted height of flyer gun relative to Pilot Stubby in flyer models.
+. Adjusted Medium Flyer model location relative to pivot point.
+. File restructuring, texture adjustments, and other .jem and model changes for Small Flyer and Medium Flyer to make future changes easier.
+
+
+
+0.1.0-10
+General Changes
+N/A
+
+Optifine-related Changes
+. Fixed Zombie Optifine leg model
+. Various model changes to Zombie Optifine model for greater accuracy to in-game Stubby Robot
+. NEW Husk model and textures. Builds on Zombie model. Represents NieR:Automata desert stubbies.
+
+Other Fixes or Alterations yet unmentioned
+. Simplified Zombie Optifine texture and removed some potential conflicts with vanilla texture locations within .PNG due to different model locations
+. Change Zombie Optifine model's emissive overlay
+. Added head, arm, and headwear animation lines in .jem for Zombie Optifine model
+
+
+
+0.0.9.1-9
+Updated license file
+
+0.0.9-9
+General Changes
+. Changed container and inventory font colors to mix of white and orange. Now more visible against the dark background. Only applied to English US lang file.
+. Redid grass colormap to make it lighter instead of darker
+
+Optifine-related Changes
+. NEW Ender Dragon model and texture based on Hegel (Some model details had to be omitted for performance reasons).
+. NEW Steve-like model for Villager. 
+. NEW Villager texture for Optifine CEM.
+. NEW Villager profession skins (Phase 1 only. Shading to be done in Phase 2 - or 3 depending on how much work needs to be done).
+. Enabled medium exploder full leg animation instead of only feet.
+. Enabled Beauvoir arm and head animation.
+
+Fixes and Other Alterations Unmentioned Above
+. Changed dragon_breath particle texture to suit Hegel
+. ROLLBACK: Break animation
+. Slight model changes to medium exploder model
+. Added blank texture files for villager biome variant overlays
+
+
+
+0.0.8-8
+. NEW Nether Portal texture.
+. NEW Mossy Cobblestone texture, and redid cobblestone texture for a lighter dark-purple hue.
+. NEW Spruce and Dark Oak fence gate models.
+. NEW Spruce, Dark Oak, and Nether Brick fence inventory icons.
+. NEW End block, End brick, End portal, and End portal eye textures. Theme is Copied City.
+. NEW End_sky.png texture.
+. NEW Obsidian and Crying Obsidian textures.
+. NEW End and Dirt advancement background textures.
+. NEW Nether rack, Nether Brick, crimson root, and weeping vine textures (and new model for latter two as well). Theme is Abandoned Factory.
+. NEW break progress bar colors and (inverted previous) animation.
+
+OPTIFINE REQUIRED
+. NEW Spider texture and emissive overlay based on Ko-Shi.
+. NEW Cave Spider model: Confirmed compatibility and moved 0.0.7 spider So-Shi model and texture to cave_spider. 
+. NEW End sky and fog colors. 
+. NEW Blaze model based on Small Flyer. 
+. NEW Enderman model: Enables horns for Gestalt Shade. 
+. NEW Alternate nether portal texture appears in nether biomes. Meant to mimic TV static. Mildly inspired by the TVs found inside the Amusement Park's castle. 
+. NEW Ghast model based on medium flyer. 
+. NEW Creeper model based on medium exploder.
+. ADDED lunar tear item emissive overlay for when in inventory. 
+. ADDED new Optifine emissive overlays for Spider, Cave Spider, Creeper, and Ghast.
+
+Fixes and Other Alterations
+. OPTIMIZED dark oak fence side model.
+. OPTIMIZED Ender Eye model and texture: eliminated a lot of iris cubes and simplified texture layout.
+. OPTIMIZED Virtuous Contract: eliminated ~70 cubes (some texture details have been removed in the process).
+. OPTIMIZED Virtuous Treaty: eliminated ~150 cubes (some texture details have been removed in the process).
+. MODIFIED Beastlord / Diamond Axe third-person left, first-person left, and item frame placement.
+. FIXED dark oak fence side texture.
+. FIXED incorrect fence parent reference.
+. FIXED: moved dragon_fireball_e.png emissive overlay from item to entity.
+. REMOVED paintings (not bothered to provide so many credits).
+
+
+
+0.0.7-7
+. NEW Spider model based on spider robot So-Shi (cave spider will remain as it is). OPTIFINE REQ.
+. NEW Wither model based on Beauvoir. OPTIFINE REQ.
+. NEW emissive overlays for Wither Skeleton and this pack's Optifine zombie and spider models
+. NEW: Applied Skeleton skin for Wither Skeleton
+. MODIFIED Notification bar in toasts.png as text is too hard to see with clear background
+
+
+
+0.0.6-6
+. NEW Main Menu background (by Novariko on DeviantArt)
+. NEW Map design and icons
+. NEW achievement and notification widget textures
+. NEW color.properties file in /optifine for loading screen, portal particle, boss text, xpbar colors. OPTIFINE REQ.
+. NEW xp orb color (stays orange without flashing) and sky color (slightly tinted brownish-yellow, just like in NieR:Automata). OPTIFINE REQ.
+***. NEW menu music (included two files)
+***. NEW calm game music (1: Memories of Dust; 2: City Ruins - Rays of Light; 3. Peaceful Sleep)
+***. NEW Ender Dragon Boss music: Grandma - Destruction (personal trim for loop)
+***. NEW hal game music (1: Faltering Prayer; 2: Widespread Illness; 3: Vague Hope; 4. Voice of no Return (Guitar))
+. NEW dragon_breath.json
+. NEW Zombie model based on stubby robots. OPTIFINE REQ.
+. FIXED: Moved dragon_fireball from /items to /entity/ender_dragon
+. FIXED: fence models referencing non-existent parents.
+. FIXED: blank_item.png not following power of two.
+. MODIFIED third-person and first-person left-hand Virtuous Treaty and Virtuous Contract placements. Looks more like NieR:Automata now when you have one of those swords in your off-hand (left, pressing 'f' by default)
+. MODIFIED: Removed some unnecessary entries in sounds.json which were brought over from predecessor using Godlander's map resource.
+. Created and updated credits.txt
+. Removed /optifine/anim folder. Forgot to do so before 0.0.5
+
+
+
+0.0.5-5
+. Changed Lunar Tear break particles to be its /item .png rather than its /model .png. Not perfect, but it looks a lot better than before.
+. NEW Virtuous Treaty model, 64x64 highly detailed model and texture, replaces Netherite Sword. Meant to be a blocky interpretation. Not to scale.
+. Virtuous Treaty is now enabled as an Optifine CIT. Can replace any sword and axe level, similar to Beastlord and Virtuous Contract, through anvil renaming.
+. NEW TNT texture. The whole idea is it's an enlarged volatile black box from a dead android. Textures are simple and the same for top, side, and bottom. There's a purple gradient representing energy cracks that will emit light at night when Optifine is installed. Uses emissive overlay like Lunar Tear.
+. NEW TNT model in GUI and when held. More to scale with player. Good for RP. Also uses emissive overlay. Uses 32x32 texture.
+. NEW cuboid sphere model for fire_charge. Old texture still exists for backup, but also now replaces dragon_fireball. Snowball texture and model will remain as is since it still looks pretty good
+. NEW Emil face - welcome, Emil! This new model and accompanying texture replaces Ender Eye. 
+. Portal and reverse_portal particle .json files have been included to redirect to Celestial Alphabet particles.
+. NEW Enderman Eye and Skin textures based on Gestalt Shades. With this new update, Celestial Alphabet particles also surround them due to the aforementioned particle .json change, making for a rather cool effect.
+. Added emissive layer for several mobs retextured by this pack: Watch their eyes glow if Optifine is installed!
+. Added emissive layer for various enemy projectile textures and slime ball
+. NEW Oak log and Dark Oak log textures. Essentially vanilla textures with a green shade over at mostly 20% opacity, darker on dark oak. SPECIFICALLY made for use with xLoveLights' map, yet still with normal gameplay in mind.
+. NEW: gave stone, gravel, dirt, coarse dirt, and grass blocks' dirt texture a brownish-yellow tint
+. Darkened grass colormap
+. NEW Nether Brick, Dark Oak, and Spruce fence textures and models 
+. NEW Smooth stone, stone, and stone brick textures
+. NEW brick texture - very slight but tasteful change from vanilla for NieR map uses.
+
+
+
+0.0.4.1-4
+. File can now be used straight after downloading. Changelog, readme, and license are moved into the pack's directory.
+. Updated license and detached license from readme.
+
+0.0.4-4
+. Removed all mentions of the folder "items" as "items" folder was replaced by "item" in recent Minecraft versions. Accordingly, moved all original contents to "item".
+. Appended blank.png files with parent folder's name for consistency, then edited dependent .json files.
+. Created icon.png and pack.png based off of PS4 lunar tear trophy.
+. Created a 2D Lunar Tear for when item is held. Will serve as better model when in item frame.
+. CHANGE: Lunar Tear will now replace Lily of the Valley instead of Poppy. Seems more appropriate.
+. NEW Virtuous Contract model replaces Diamond Sword. Check it out!
+. Changed Beastlord gui icon to fit inside item box borders. Also changed its dropped appearance to look bigger, more epic, similar to the new Virtuous Contract.
+. The 0.0.1 enemy projectile is now a snowball retexture. 
+. NEW dark purple projectile, unblock-able variant from NieR:Automata, has replaced texture from 0.0.1 as fire_charge.
+. Now, instead of being blank, a small yellow bar replaces the hook to show where your pod has landed.
+. NEW dead android skin replaces skeleton. Now, it should make more sense when a 'skeleton' uses a Pod unit to attack you 
+. Virtuous Contract is now enabled as an Optifine CIT. Furthermore, both Beastlord and Virtuous Contract can now replace Netherite Swords and Axes through anvil renaming.
+
+
+
+0.0.3.1-3
+. Fixed description in pack.mcmeta from 0.0.3 update
+
+0.0.3-3
+. Fixed incorrect pixel in underwater armor icon
+. Fixed slime right eye, and gave the slimes back their left eye
+. Changed explosion.json
+. Created effect.json for splash potion and enchanting effects to use celestial alphabet particles
+. Altered some damage indicator gui icons to be more accurate to NieR:Automata game
+. NEW boss health bars inspired by NieR:Automata. Located in bars.png.
+. Added grey dots at the end of prior edited bars. Unsure if this change will stay.
+. Created alternate critical hit texture for use when MCPatcher or Optifine is not installed. Uses first texture as it lacks animation.
+. New /models/item .json: Used Pod model for fishing rod; blank.png used as predicate argument in fishing_rod.json for when switching to fishing_rod_cast
+. Updated folder name from MCPatcher to Optifine. 
+. Updated beastlord .properties file to optifine-compliant version.
+. Retextured options_background to fit NieR:Automata's loading screens. Old background has ".backup" appended. Treat this new one as something like a dark mode.
+. Reimplemented Grimoire model by @nongfu as alternate bow model. In contrast to latest release by nongfu, Grimoire model can be obtained through anvil renaming. Pod 042 remains as default bow model as it was in @EleneRemedy's pack
+. Fixed bow alt model .properties files as they had been taken out of MCPatcher and not Optifine folder from @nongfu's resource pack.
+. Created emissive.properties file.
+. NEW Lunar Tear model replaces poppy. Also has a separate model for potted version. Glows at night if Optifine is installed due to emissive _e.png.
+
+
+
+0.0.2-2
+. Updated pack.mcmeta description
+. Changed Resource Pack name
+. Completely changed icons.png: ALL NEW HUD, GUI, and server signal icons based on hud elements from NieR:Automata. Check out the charge and crosshair elements for example!
+. Replaced heads in spectator_widgets.png with stubby head texture
+. Cleaned up folder of .pngs not edited so that client correctly defaults to vanilla resources, in the event something bad happens inside the folder
+
+
+
+0.0.1-1
+. Updated pack.mcmeta for 16th gen
+. Modified zombie pigman skin for new Piglin species
+. NEW skin based on past zombie skin color scheme for Enderman and zombie villager
+. NEW skin for Ghast based on NieR:Replicant's Number 6
+. NEW skin for Silverfish, Blaze, and Bat
+. NEW explosion and smoke particles, and replacement for large_smoke
+. NEW fire effect (ideal for use with fire_charge projectile and mimics of Gestalt corruption)
+. NEW skin for Slimes
+. NEW textures for slime block, slime ball (based on robot heads), and fire charge (based on NieR's classic pink projectiles)
+. Modified gui texture color scheme for new 16th gen pop-up displays, such as 'villager2'. Also modified other hud elements for actual use outside of @Godlander's NieR:Automata map
+. Renamed a couple items for compatibility
+. NEW SGA replacement: Enchantment alphabet replaced by alphabet based on Celestial/Angelic Language. Replaces both particle effect and font.
+. NEW experience orb textures based on those orange drops by stubby enemies in NieR:Automata
+. NEW camo coat, stubby color scheme, for spider and squid

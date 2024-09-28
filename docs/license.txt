@@ -1,0 +1,53 @@
+CC BY-NC-SA 4.0
+Attribution-NonCommercial-ShareAlike 4.0 International
+
+This license cannot be revoked. This license does not apply to copyright holders or known content 
+authors. Pay attention to this document's latest version as contained in this project's latest 
+publicly released version. Though license documents bundled with released files succeed one another, 
+note that there is only one license for the project as a whole. The below is both an alternate 
+summary/application of relevant parts of the license and a clarification of special circumstances 
+that you as the user will need to abide by. If in doubt, refer to the legal code directly.
+
+
+
+Part 1: Permissions
+You may
+- Distribute iterations of this file.
+
+- Provide dependents that require this file as a dependency.
+
+- Adapt for your own private purposes.
+
+You may not
+- Use this file for commercial purposes.
+
+- Use this file in any manner without attribution.
+
+- Distribute iterations or dependents of this file that fall under different terms.
+
+
+
+Part 2: Further Statements
+- Mentions of "file" refer to this project and its contained resources.
+
+- This license may appear to permit redistributions as is. However, I myself am not allowed to permit 
+such acts of distribution. Even with this CC license, scenarios of verbatim redistributions likely 
+avoid publicizing second-party attributions important to this project. This license does not cover 
+content made by other authors and does not protect you from IP holders. See fifth statement.
+
+- It is your responsibility to deal with any and all repercussions incurred by use of this project.
+
+- This license.txt document and the credits.txt document cannot be separated from this file's 
+contents.
+
+- The use (or range) and applicability of this license to certain files may be instead or 
+additionally subject to other terms or another creator's terms. Unless otherwise stated, terms of use 
+from this license dominates all but terms of a specific work which the concerned file is based on or 
+from. Permission requests must always be directed toward a file's original author. 
+
+
+
+Revised 2023/07/06 (YYYY/MM/DD).
+The license.txt inside the main downloaded file overwrites any other license.txt should a conflict 
+arise.
+A succeeding file's license document supersedes the preceding file's license document. 

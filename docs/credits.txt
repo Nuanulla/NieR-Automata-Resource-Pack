@@ -1,0 +1,54 @@
+CREDITS
+NieR is an intellectual property (hereon "IP") of Square Enix (hereon "SE"). 
+NieR is a game developed by Cavia and published by SE.
+NieR:Automata is a game developed by PlatinumGames (hereon "PG") and published by SE.
+
+
+
+PROGRAMS
+Aseprite: https://www.aseprite.org
+Igara Studio S.A.
+
+Blockbench: https://www.blockbench.net
+@JannisX11
+
+Minecraft: Java Edition: https://www.minecraft.net
+Minecraft is an IP of Microsoft.
+Mojang
+
+Visual Studio Code: https://code.visualstudio.com
+Microsoft
+
+
+
+RESOURCES
+Originally unaltered versions of some GUI elements and Library Block textures: https://www.minecraftmaps.com/adventure-maps/nier-minecraftia
+Twitter @Godlanderp
+MinecraftMaps @Godlander
+Quote - "just make sure my name is there somewhere when u publish it"
+Permission confirmation: https://i.imgur.com/YvEnzSW.png. 
+Concept and original design by PG. 
+
+Originally unaltered versions of Pod, Grimoire Weiss, Beastlord models: https://www.planetminecraft.com/texture-pack/nier-weapons-pack-3d-nier-and-nier-automata-weapon-skins/
+PlanetMinecraft @nongko (formerly @nongfu)
+Quote - "If you use this pack for any project, credit is appreciated but not required."
+Permission confirmation: https://i.imgur.com/4QCIce3.png
+Concept and original design by PG. 
+
+
+
+ACKNOWLEDGEMENTS
+Initial Japanese translation help
+Civa @yamagami2211
+
+File structure basis: https://www.planetminecraft.com/texture-pack/nier-automata-resource-pack-1-14/
+Planet Minecraft @EleneRemedy
+
+
+
+All other assets are made by Benjamin (@Nuanulla) and influenced or based on the concept of an IP 
+or item where noted or applicable. A modified file is still kept under the terms of its original 
+creator unless it's stated otherwise. See license.txt for resource uses.
+A succeeding file's credits doesn't supersede the preceding file's credits. A credits.txt document 
+only applies to the version or file they were bundled with. This document should not be separated 
+from any relevant assets contained herein this project.

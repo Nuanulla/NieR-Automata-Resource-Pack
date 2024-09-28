@@ -1,0 +1,386 @@
+{	
+    "block.portal.ambient": {
+        "replace": true,
+        "sounds": [
+            {
+				"name": "eff/silent"
+			}
+        ]
+    },
+    "block.portal.trigger": {
+        "replace": true,
+        "sounds": [
+            {
+				"name": "eff/silent"
+			}
+        ]
+    },
+    "entity.cow.ambient": {
+        "replace": true,
+        "sounds": [
+            {
+				"name": "eff/silent"
+			}
+        ]
+    },
+    "entity.cow.hurt": {
+        "replace": true,
+        "sounds": [
+			"mob/blaze/hit1",
+            "mob/blaze/hit2",
+            "mob/blaze/hit3",
+            "mob/blaze/hit4"
+        ]
+    },
+    "entity.cow.step": {
+        "replace": true,
+        "sounds": [
+            "mob/sheep/step1",
+            "mob/sheep/step2",
+            "mob/sheep/step3",
+            "mob/sheep/step4",
+            "mob/sheep/step5"
+        ]
+    },
+    "entity.blaze.ambient": {
+        "replace": true,
+        "sounds": [
+            {
+				"name": "eff/silent"
+			}
+        ]
+    },
+    "entity.blaze.burn": {
+        "replace": true,
+        "sounds": [
+            {
+				"name": "eff/silent"
+			}
+        ]
+    },
+    "entity.ghast.ambient": {
+        "replace": true,
+        "sounds": [
+            {
+				"name": "eff/silent"
+			}
+        ]
+    },
+    "entity.ghast.hurt": {
+        "replace": true,
+        "sounds": [
+			"mob/blaze/hit1",
+            "mob/blaze/hit2",
+            "mob/blaze/hit3",
+            "mob/blaze/hit4"
+        ]
+    },
+    "entity.ghast.scream": {
+        "replace": true,
+        "sounds": [
+            {
+				"name": "eff/silent"
+			}
+        ]
+    },
+    "entity.ghast.warn": {
+        "replace": true,
+        "sounds": [
+            {
+				"name": "eff/silent"
+			}
+        ]
+    },
+    "entity.zombie.ambient": {
+        "replace": true,
+        "sounds": [
+            {
+				"name": "eff/silent"
+			}
+        ]
+    },
+    "entity.zombie.hurt": {
+        "replace": true,
+        "sounds": [
+			"mob/blaze/hit1",
+            "mob/blaze/hit2",
+            "mob/blaze/hit3",
+            "mob/blaze/hit4"
+        ]
+    },
+    "entity.zombie.step": {
+        "replace": true,
+        "sounds": [
+            "mob/sheep/step1",
+            "mob/sheep/step2",
+            "mob/sheep/step3",
+            "mob/sheep/step4",
+            "mob/sheep/step5"
+        ]
+    },
+    "entity.zombie_villager.ambient": {
+        "replace": true,
+        "sounds": [
+            {
+				"name": "eff/silent"
+			}
+        ]
+    },
+    "entity.zombie_villager.hurt": {
+        "replace": true,
+        "sounds": [
+			"mob/blaze/hit1",
+            "mob/blaze/hit2",
+            "mob/blaze/hit3",
+            "mob/blaze/hit4"
+        ]
+    },
+    "entity.drowned.ambient": {
+        "replace": true,
+        "sounds": [
+            {
+				"name": "eff/silent"
+			}
+        ]
+    },
+    "entity.drowned.ambient_water": {
+        "replace": true,
+        "sounds": [
+            {
+				"name": "eff/silent"
+			}
+        ]
+    },
+    "entity.drowned.hurt": {
+        "replace": true,
+        "sounds": [
+			"mob/blaze/hit1",
+            "mob/blaze/hit2",
+            "mob/blaze/hit3",
+            "mob/blaze/hit4"
+        ]
+    },
+    "entity.drowned.hurt_water": {
+        "replace": true,
+        "sounds": [
+			"mob/blaze/hit1",
+            "mob/blaze/hit2",
+            "mob/blaze/hit3",
+            "mob/blaze/hit4"
+        ]
+    },
+    "entity.drowned.step": {
+        "replace": true,
+        "sounds": [
+            "mob/sheep/step1",
+            "mob/sheep/step2",
+            "mob/sheep/step3",
+            "mob/sheep/step4",
+            "mob/sheep/step5"
+        ]
+    },
+    "entity.husk.ambient": {
+        "replace": true,
+        "sounds": [
+            {
+				"name": "eff/silent"
+			}
+        ]
+    },
+    "entity.husk.hurt": {
+        "replace": true,
+        "sounds": [
+			"mob/blaze/hit1",
+            "mob/blaze/hit2",
+            "mob/blaze/hit3",
+            "mob/blaze/hit4"
+        ]
+    },
+    "entity.husk.step": {
+        "replace": true,
+        "sounds": [
+            "mob/sheep/step1",
+            "mob/sheep/step2",
+            "mob/sheep/step3",
+            "mob/sheep/step4",
+            "mob/sheep/step5"
+        ]
+    },
+    "entity.creeper.hurt": {
+        "replace": true,
+        "sounds": [
+			"mob/blaze/hit1",
+            "mob/blaze/hit2",
+            "mob/blaze/hit3",
+            "mob/blaze/hit4"
+        ]
+    },
+    "entity.spider.ambient": {
+        "replace": true,
+        "sounds": [
+            {
+				"name": "eff/silent"
+			}
+        ]
+    },
+    "entity.spider.hurt": {
+        "replace": true,
+        "sounds": [
+			"mob/blaze/hit1",
+            "mob/blaze/hit2",
+            "mob/blaze/hit3",
+            "mob/blaze/hit4"
+        ]
+    },
+    "entity.spider.step": {
+        "replace": true,
+        "sounds": [
+            "mob/sheep/step1",
+            "mob/sheep/step2",
+            "mob/sheep/step3",
+            "mob/sheep/step4",
+            "mob/sheep/step5"
+        ]
+    },
+    "entity.villager.ambient": {
+        "replace": true,
+        "sounds": [
+            {
+				"name": "eff/silent"
+			}
+        ]
+    },
+    "entity.villager.hurt": {
+        "replace": true,
+        "sounds": [
+			"mob/blaze/hit1",
+            "mob/blaze/hit2",
+            "mob/blaze/hit3",
+            "mob/blaze/hit4"
+        ]
+    },
+    "entity.vindicator.ambient": {
+        "replace": true,
+        "sounds": [
+            {
+				"name": "eff/silent"
+			}
+        ]
+    },
+    "entity.vindicator.hurt": {
+        "replace": true,
+        "sounds": [
+			"mob/blaze/hit1",
+            "mob/blaze/hit2",
+            "mob/blaze/hit3",
+            "mob/blaze/hit4"
+        ]
+    },
+    "entity.wandering_trader.ambient": {
+        "replace": true,
+        "sounds": [
+            {
+				"name": "eff/silent"
+			}
+        ]
+    },
+    "entity.wandering_trader.hurt": {
+        "replace": true,
+        "sounds": [
+			"mob/blaze/hit1",
+            "mob/blaze/hit2",
+            "mob/blaze/hit3",
+            "mob/blaze/hit4"
+        ]
+    },
+    "entity.zombified_piglin.ambient": {
+        "replace": true,
+        "sounds": [
+            {
+				"name": "eff/silent"
+			}
+        ]
+    },
+    "entity.zombified_piglin.hurt": {
+        "replace": true,
+        "sounds": [
+			"mob/blaze/hit1",
+            "mob/blaze/hit2",
+            "mob/blaze/hit3",
+            "mob/blaze/hit4"
+        ]
+    },
+    "entity.piglin.ambient": {
+        "replace": true,
+        "sounds": [
+            {
+				"name": "eff/silent"
+			}
+        ]
+    },
+    "entity.piglin.hurt": {
+        "replace": true,
+        "sounds": [
+			"mob/blaze/hit1",
+            "mob/blaze/hit2",
+            "mob/blaze/hit3",
+            "mob/blaze/hit4"
+        ]
+    },
+    "entity.piglin.step": {
+        "replace": true,
+        "sounds": [
+            "mob/sheep/step1",
+            "mob/sheep/step2",
+            "mob/sheep/step3",
+            "mob/sheep/step4",
+            "mob/sheep/step5"
+        ]
+    },
+    "entity.piglin_brute.ambient": {
+        "replace": true,
+        "sounds": [
+            {
+				"name": "eff/silent"
+			}
+        ]
+    },
+    "entity.piglin_brute.hurt": {
+        "replace": true,
+        "sounds": [
+			"mob/blaze/hit1",
+            "mob/blaze/hit2",
+            "mob/blaze/hit3",
+            "mob/blaze/hit4"
+        ]
+    },
+    "entity.piglin_brute.step": {
+        "replace": true,
+        "sounds": [
+            "mob/sheep/step1",
+            "mob/sheep/step2",
+            "mob/sheep/step3",
+            "mob/sheep/step4",
+            "mob/sheep/step5"
+        ]
+    },
+    "entity.iron_golem.hurt": {
+        "replace": true,
+        "sounds": [
+			"mob/blaze/hit1",
+            "mob/blaze/hit2",
+            "mob/blaze/hit3",
+            "mob/blaze/hit4"
+        ]
+    },
+    "entity.iron_golem.step": {
+        "replace": true,
+        "sounds": [
+            "mob/sheep/step1",
+            "mob/sheep/step2",
+            "mob/sheep/step3",
+            "mob/sheep/step4",
+            "mob/sheep/step5"
+        ]
+    }
+}

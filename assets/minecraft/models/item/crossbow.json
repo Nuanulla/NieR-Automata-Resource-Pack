@@ -1,0 +1,38 @@
+{
+    "parent": "item/weapons/misc/machine_gun",
+    "overrides": [
+		{
+			"predicate": {
+				"pulling": 1
+			},
+			"model": "item/weapons/misc/machine_gun_pulling"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.58
+			},
+			"model": "item/weapons/misc/machine_gun_pulling"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 1
+			},
+			"model": "item/weapons/misc/machine_gun_pulling"
+		},
+		{
+			"predicate": {
+				"charged": 1
+			},
+			"model": "item/weapons/misc/machine_gun_pulling"
+		},
+		{
+			"predicate": {
+				"charged": 1,
+				"firework": 1
+			},
+			"model": "item/weapons/misc/machine_gun_pulling"
+		}
+	]
+}

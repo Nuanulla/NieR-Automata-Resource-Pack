@@ -1,0 +1,74 @@
+{
+	"credit": "Made by Benjamin through Blockbench",
+	"parent": "minecraft:block/door_top_right_open",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "block/factory_lift_door",
+		"particle": "block/factory_lift_door"
+	},
+	"elements": [
+		{
+			"from": [-1.75, 0, 0.25],
+			"to": [0.25, 16, 2.25],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.33333, 8, 1.33333]},
+			"faces": {
+				"north": {"uv": [2, 5.5, 1, 13.5], "texture": "#0"},
+				"east": {"uv": [3, 5.5, 2, 13.5], "texture": "#0"},
+				"south": {"uv": [4, 5.5, 3, 13.5], "texture": "#0"},
+				"west": {"uv": [1, 5.5, 0, 13.5], "texture": "#0"},
+				"up": {"uv": [1, 5.5, 2, 4.5], "texture": "#0"},
+				"down": {"uv": [2, 4.5, 3, 5.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-15.75, 0, 0.25],
+			"to": [-13.75, 16, 2.25],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [-7.66667, 8, 1.33333]},
+			"faces": {
+				"north": {"uv": [2, 5.5, 1, 13.5], "texture": "#0"},
+				"east": {"uv": [3, 5.5, 2, 13.5], "texture": "#0"},
+				"south": {"uv": [4, 5.5, 3, 13.5], "texture": "#0"},
+				"west": {"uv": [1, 5.5, 0, 13.5], "texture": "#0"},
+				"up": {"uv": [1, 5.5, 2, 4.5], "texture": "#0"},
+				"down": {"uv": [2, 4.5, 3, 5.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-13.75, 0, 0.5],
+			"to": [-1.75, 8, 2],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [-7.66667, 8, 1.58333]},
+			"faces": {
+				"north": {"uv": [6.5, 0.5, 0.5, 4.5], "texture": "#0"},
+				"east": {"uv": [7, 0.5, 6.5, 4.5], "texture": "#0"},
+				"south": {"uv": [13, 0.5, 7, 4.5], "texture": "#0"},
+				"west": {"uv": [0.5, 0.5, 0, 4.5], "texture": "#0"},
+				"up": {"uv": [0.5, 0.5, 6.5, 0], "texture": "#0"},
+				"down": {"uv": [6.5, 0, 12.5, 0.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-13.75, 8, 0.75],
+			"to": [-1.75, 16, 1.75],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [-5.66667, 8, 1.83333]},
+			"faces": {
+				"north": {"uv": [6.5, 0.5, 0.5, 4.5], "texture": "#0"},
+				"east": {"uv": [7, 0.5, 6.5, 4.5], "texture": "#0"},
+				"south": {"uv": [13, 0.5, 7, 4.5], "texture": "#0"},
+				"west": {"uv": [0.5, 0.5, 0, 4.5], "texture": "#0"},
+				"up": {"uv": [0.5, 0.5, 6.5, 0], "texture": "#0"},
+				"down": {"uv": [6.5, 0, 12.5, 0.5], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8.5],
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

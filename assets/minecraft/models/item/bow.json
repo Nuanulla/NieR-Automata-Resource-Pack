@@ -1,0 +1,18 @@
+{
+    "parent": "item/weapons/misc/bow_pod_0",
+    "overrides": [
+        {
+            "predicate": {
+                "pulling": 1
+            },
+            "model": "item/bow_pulling_0"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.8
+            },
+            "model": "item/bow_pulling_1"
+        }
+    ]
+}

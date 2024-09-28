@@ -1,0 +1,221 @@
+Change Log
+3.2.5-34
+Primary
+. Added dark_gray color code to Vanilla replacers. Remove code/prefix to enable NFCS / convert to CIT. Resolves name conflicts when game uses en_us or ja_jp.
+. Changed in-game pack description.
+. Updated license.txt.
+
+
+
+3.2.4-33
+Primary
+. Updated experience orb textures and size order.
+. Fixed overlapping experience orb UVs.
+. Corrected spider.properties biome id to eliminate log error.
+. Updated license.txt.
+
+
+
+3.2.3-32
+Primary
+. Updated release for game version 1.18.
+. Updated docs files.
+. Updated inventory.png.
+. Added bundle.png.
+
+
+
+3.2.2-31
+Primary
+. Modified alternate offhand displays for most models. To display weapons on player's back in offhand-mode, the model must be recognized as an Optifine CIT in-game.
+
+Secondary
+. Altered Virtuous Grief texture.
+. Fixed Cruel Lament face texture colors.
+. Fixed z-flickering and missing colors in some Husk and Zombie textures.
+. Removed break textures.
+. Removed "weight" rules in some CIT properties files.
+. Reorganized weapon models for easier future management.
+. Simplified Black Box item model and texture.
+. Reduced chest and barrel "open" volume.
+. Updated support.txt.
+
+
+
+3.2.1-30
+Primary
+. New Type-4O Blade. Accessible via CIT.
+. Edited sounds.json to include new sound files. See Secondary for more information.
+
+Secondary
+. New throwing sounds for snowball, exp bottle, ender pearl, splash potion, and lingering potion.
+. New ui click sound.
+. New toast and challenge_complete sounds.
+. New villager and wandering trader "no" sound.
+. New chest, ender chest, and barrel interaction sounds.
+. New item pickup sound.
+. New exp orb pickup sound.
+. New level up sound.
+. New player death sound.
+. New armor equip sounds.
+. New bottle fill sounds.
+. New portal-related sounds.
+. Removed unused sound files.
+. Reorganized CIT files.
+
+
+
+3.2.0-29
+Primary
+. New Machine Gun model and texture. Replaces Crossbow. Subject to further improvement. 
+. New textures to blend in with existing Dirt retexture: Podzol, Mycelium, Rooted Dirt.
+. New Iron Pipe model and texture. Replaces Iron Sword. CIT enabled. 
+. Reimplemented sounds.
+. Changed Virtuous Grief from replacing Iron Sword to Stone Sword.
+
+Secondary
+. New support.txt document.
+. Edited readme.txt.
+. Edited sounds.json.
+. Removed untouched advancements/widgets.png.
+. Removed Machine Gun CIT bow files.
+. Updated lang files.
+. Renamed grass_path_side.png as dirt_path_side.png.
+
+
+
+3.1.6-28
+Primary
+. Implemented new animation expression for Emil's wheels, again.
+. Implemented new animation expression for Medium Flyer.
+. Implemented new animation expression for Small Flyer.
+
+Secondary
+. Removed blank Fire texture.
+. Fixed flickering texture in Emil (Wandering Trader) model by moving cube uv.
+
+
+
+3.1.5-27
+Primary
+. Improved Emil (Wandering Trader) custom model wheel animation with a better math expression.
+
+Secondary
+. Substituted Fire texture with blanks. This change may be temporary. Resolves "unused frames" warning.
+. WIP Machine Gun model: This model was discreetly added in a previous version.
+. Changed version number log method.
+. Updated lang files.
+
+
+
+3.1.4.1-26
+. Updated toasts.png.
+
+3.1.4-26
+Primary Updates
+. Added shading and increased texture details for Emil (Shop).
+. Refined Pascal texture details.
+
+Secondary Updates
+. Updated lang files.
+. Fixed z-flickering in right foot of some Small Stubby textures.
+. Fixed Pascal texture uv-mapping.
+. Removed and replaced certain buggy cubes from Pascal model.
+. Corrected ground display scale of Beastlord.
+. Altered standard display scales of Beastlord.
+. Altered first-person displays of Machine Sword.
+. Removed Beta tag.
+
+
+
+3.1.3-25
+Primary Updates
+. Removed Armor bone from Creeper model to comply with 1.17.1 changes.
+. Mirrored Iron Golem arm animations to comply with 1.17.1 changes.
+. Added Japanese language support for some piglin and zombie model replacers.
+
+
+
+3.1.2-24b
+Primary Updates
+. Altered Cypress Stick ground-view y-axis translation to fix potential clipping.
+. Resolved duplicate bone groups in Zombie, Zombie Villager, and Villager model replacers.
+. Fixed log spam due to incorrect CIT bow predicates.
+
+
+
+3.1.1-23b
+Primary Updates
+. Fixed Cypress Stick left-hand third-person display.
+. Fixed Machine Spear CIT texture file path.
+. Fixed Small Biped (Rampaging) incorrect texture. 
+. Fixed Small Biped, Small Biped (Rampaging), and Small Biped (armed) texture symmetry. 
+
+
+
+3.1.0-22b
+Primary Updates
+. New Rampaging Stubby (Zombie Villager) texture.
+. New Rampaging Small Biped (Zombified Piglin) texture.
+. New Machine Axe model and texture. Replaces Iron Axe.
+. New Machine Sword model and texture. Replaces Golden Sword.
+. New Machine Spear model and texture. Replaces Golden Axe.
+. New icons for armor item textures.
+. Color-corrected textures for Cruel Lament, Cruel Arrogance, Cruel Oath, and Cruel Blood Oath.
+. Increased texture detail for Cypress Stick.
+. Altered display properties for Virtuous Treaty, Virtuous Contract, Virtuous Grief, Cruel Blood Oath, Cruel Oath, and Cruel Lament.
+. Increased texture resolution for Virtuous Contract and Virtuous Treaty.
+. Altered model for Virtuous Contract and Cruel Oath.
+. Altered model for Virtuous Treaty and Cruel Blood Oath.
+. Virtuous Treaty has been moved from Netherite Sword to Netherite Axe.
+. Virtuous Contract has been moved from Diamond Sword to Netherite Sword.
+. Virtuous Dignity has been moved from Iron Sword to Diamond Sword.
+. Virtuous Grief has been moved from Golden Sword to Iron Sword.
+. Replaced Piglin, Piglin Brute, and Zombified Piglin with Small Biped model.
+. Replaced Zombie Villager with Small Stubby model.
+. Inserted blank texture files in place of all armor model textures save for turtle_layer_1.png.
+
+Secondary Updates
+. Updated lang files.
+. Fixed Virtuous Grief texture incorrect pixel.
+. Fixed Small and Medium Biped arm pivot points.
+. Fixed Piglin texture by relocating textures on uv map.
+. Removed unused diamond_sword.png.
+
+
+
+3.0.1-21b
+Primary Updates
+. Updated icons.png.
+. Updated lang file.
+
+Secondary Updates
+. Fixed Cruel Lament z-fighting.
+. Updated pack.mcmeta pack_format number.
+
+
+
+3.0.0-20
+Primary Updates
+. New Cypress Stick model and texture. Replaces Wooden Sword.
+. New Cruel Oath texture.
+. New Cruel Blood Oath texture.
+. New Cruel Arrogance texture.
+. New Cruel Lament texture.
+. New Small Stubby (Villager) texture.
+. New Small Stubby (Villager) baby texture.
+. New Small Stubby (City Ruins) Enhanced variant texture.
+. New Small Stubby (Desert) Enhanced variant texture.
+. New Small Biped Enhanced variant texture.
+. New Medium Biped Enhanced variant texture.
+. New Small Flyer Enhanced variant texture. 
+. New Medium Flyer Enhanced variant texture.
+. Nametags can now be used to force textures of eligible models with Random function.
+. So-Shi can now be found on the surface of desert biomes using the "Spider" model replacer.
+. Added back some details to Virtuous Contract texture.
+. Altered base textures for the following models: Small Stubby (City Ruins), Small Stubby (Desert), Small Biped, Medium Biped, Small Flyer, Medium Flyer.
+
+Secondary Updates
+. Altered Spider texture weight properties.
+. Fixed Villager texture: Change from per-face to box uv.
+. Updated en_identifiers, ja_identifiers, and lang files.

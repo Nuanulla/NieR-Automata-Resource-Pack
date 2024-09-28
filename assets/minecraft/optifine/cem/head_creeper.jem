@@ -1,0 +1,92 @@
+{
+	"credit": "Made by Benjamin with Blockbench",
+	"textureSize": [256, 256],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"submodels": [
+				{
+					"id": "top_segment1",
+					"invertAxis": "xy",
+					"translate": [0, -17, 0],
+					"submodels": [
+						{
+							"id": "bone13",
+							"invertAxis": "xy",
+							"translate": [0, 10, 0],
+							"boxes": [
+								{"coordinates": [-4, 10, -6, 8, 5, 12], "textureOffset": [70, 0]},
+								{"coordinates": [3, 12, -5, 0, 5, 1], "textureOffset": [36, 20]},
+								{"coordinates": [4, 12, 1, 0, 8, 1], "textureOffset": [82, 55]},
+								{"coordinates": [-6, 10, -4, 12, 5, 8], "textureOffset": [78, 92]},
+								{"coordinates": [-5, 10, -5, 10, 5, 10], "textureOffset": [82, 18]}
+							],
+							"submodels": [
+								{
+									"id": "bone20",
+									"invertAxis": "xy",
+									"translate": [0, 14.15538, -6.73254],
+									"rotate": [67.5, 0, 0],
+									"boxes": [
+										{"coordinates": [-1.5, -1, -0.5, 3, 2, 1], "textureOffset": [70, 8]}
+									]
+								},
+								{
+									"id": "bone21",
+									"invertAxis": "xy",
+									"translate": [0, 10.84462, -6.73254],
+									"rotate": [112.5, 0, 0],
+									"boxes": [
+										{"coordinates": [-1.5, -1, -0.5, 3, 2, 1], "textureOffset": [0, 50]}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "top_segment2",
+					"invertAxis": "xy",
+					"translate": [0, -17, 0],
+					"submodels": [
+						{
+							"id": "bone9",
+							"invertAxis": "xy",
+							"translate": [0, 10, 0],
+							"boxes": [
+								{"coordinates": [-4, 10, -6, 8, 5, 12], "textureOffset": [73, 56]},
+								{"coordinates": [3, 12, -5, 0, 5, 1], "textureOffset": [51, 68]},
+								{"coordinates": [4, 12, 1, 0, 8, 1], "textureOffset": [60, 119]},
+								{"coordinates": [-6, 10, -4, 12, 5, 8], "textureOffset": [33, 94]},
+								{"coordinates": [-5, 10, -5, 10, 5, 10], "textureOffset": [82, 39]}
+							],
+							"submodels": [
+								{
+									"id": "bone11",
+									"invertAxis": "xy",
+									"translate": [0, 14.15538, -6.73254],
+									"rotate": [67.5, 0, 0],
+									"boxes": [
+										{"coordinates": [-1.5, -1, -0.5, 3, 2, 1], "textureOffset": [119, 86]}
+									]
+								},
+								{
+									"id": "bone12",
+									"invertAxis": "xy",
+									"translate": [0, 10.84462, -6.73254],
+									"rotate": [112.5, 0, 0],
+									"boxes": [
+										{"coordinates": [-1.5, -1, -0.5, 3, 2, 1], "textureOffset": [119, 82]}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

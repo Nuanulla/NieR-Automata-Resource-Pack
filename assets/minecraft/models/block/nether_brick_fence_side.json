@@ -1,0 +1,25 @@
+{
+	"credit": "Made by Benjamin through Blockbench",
+	"parent": "minecraft:block/fence_side",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "block/nether_brick_bar",
+		"particle": "block/nether_brick_bar"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 1.75],
+			"to": [9, 16, 3.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 0.75]},
+			"faces": {
+				"north": {"uv": [3, 3, 4, 11], "texture": "#0"},
+				"east": {"uv": [0, 0, 1, 8], "texture": "#0"},
+				"south": {"uv": [1, 1, 2, 9], "texture": "#0"},
+				"west": {"uv": [2, 2, 3, 10], "texture": "#0"},
+				"up": {"uv": [2, 1, 1, 0], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [3, 0, 2, 1], "rotation": 270, "texture": "#0"}
+			}
+		}
+	]
+}

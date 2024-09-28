@@ -1,0 +1,385 @@
+Change Log
+4.2.14-55
+Primary
+. Optimized script. Changed use of in() condition to '==' comparison for hostility checker.
+. Cleaned up lunar tear, factory plates, and factory scaffolds references.
+
+
+
+4.2.13-54
+Primary
+. Goliath Biped:
+    - Added Goliath Biped Enhanced variant.
+    - Improved attack animation. Now uses hydraulic element translations.
+    - Increased arm elements' texture detail.
+    - Increased torso bobbing amplification.
+    - Adjusted finger elements to allow for proper 90-degree rotations.
+    - Adjusted texture UV map.
+    - Fixed erroneous model asymmetry.
+    - Minor tweaks to texture colors.
+. Fixed Medium Flyer flight unit flap animations.
+. Changed entity model animations to adjust for model layers and frame time thanks to Ewan's code.
+. Changed CEM name matches to consider parentheses.
+. Updated identifier documents.
+
+
+
+4.2.12-53
+Primary
+. Added element visibility condition to Goliath Biped forearm shield elements.
+. Minor tweaks to Goliath Biped model lower segment group.
+. Minor tweaks to Goliath Biped texture colors.
+
+
+
+4.2.11-52
+Primary
+. New Goliath Biped texture and model. Replaces Warden.
+   - CEM Animation: multiplier 4, blink; workaround.
+. New head models: head_creeper, head_piglin, head_skeleton, head_zombie.
+. Swapped flight_unit and head_st .rx update order for Blaze.jem and Ghast.jem.
+. Duplicated Zombie.jem as Giant.jem. No additional changes were made as Giant uses Zombie texture path and is just an oversized Zombie. This duplication is only to protect against off chance of Giant being summoned so that Small Stubby texture isn't mapped onto the wrong model.
+. Updated identifiers + further Japanese name localization.
+. Updated lang files. 
+   - Japanese (JP) lang file, incomplete as it is, no longer contains English entries.
+   - Removed unused Scaffold entry in English (US) lang file.
+   - Renamed "Gestalt Shade" as "Shade".
+   - Added new Warden entries.
+   - Added new head entries.
+. Now relying on Randomized Models to switch models rather than only Random Entities to switch textures. Affects creeper.jem. Should improve performance.
+. Fixed Multi-tier Type inactive eye texture placement.
+. The following changes affect Medium Biped: Gun-equipped:
+   - Adjusted weapon_unit / gun model height.
+   - Adjusted weapon_unit bone pivot point.
+   - Adjusted draft texture colors.
+   - Reorganized UV mapping.
+. The following changes affect Small Flyer and Medium Flyer:
+   - Minor model adjustments.
+   - Grouped gun as child weapon_unit and renamed parent weapon_unit as weapon_unit_clamp.
+   - Clamped weapon_unit_clamp.rx rotation.
+   - Imported Medium Biped: Gun-equipped's more detailed gun model.
+   - Conformed variant textures.
+   - Adjusted draft texture colors.
+. The following changes affect Small Stubby: Gun-equipped:
+   - Minor model adjustments.
+   - Increased canvas size from 256x to 512x.
+   - Grouped gun as child weapon_unit and renamed parent weapon_unit as weapon_unit_clamp.
+   - Imported Medium Biped: Gun-equipped's more detailed gun model.
+   - Conformed variant textures.
+   - Adjusted draft texture colors.
+. Updated credits document.
+
+
+
+4.2.10-51
+Primary
+. New Pedestal model. Requires z-axis adjustment by 6 clicks assuming base size display to item frame fixed display ratio is 1:1 or, if factoring in Minecraft's size adjustment, 1:2.
+. New Small Stubby: Gun-equipped model. Replaces Skeleton.
+. New Small Stubby: Gun-equipped Enhanced texture. Spawns via CEM Random.
+. New Medium Biped: Gun-equipped model. Replaces Pillager.
+   - Increased texture file canvas size from 256x256 to 512x512. Emissive layer is currently incompatible with standard Medium Biped model.
+. Finalized Medium Flyer UV mapping, texture layout, and element rotations. Resolves UV logical coherency.
+   - Flight unit extension elements are properly mirrored in both UV and physical elements.
+   - Secondary flight units are separated from element flip method and are rotated duplicates of Secondary 1 (Flight Unit 2).
+. The following changes affect all applicable chest models:
+   - Clamped lid .rx rotation.
+   - Increased lid .rx rotation speed.
+. Adjusted Small Flyer and Medium Flyer flight unit flap behavior when var.is_moving == true.
+. Silent.ogg was NOT silent... Interesting. Replaced with new silent.ogg sound file.
+. Colored ghast_shooting textures' passive eyes red.
+
+Secondary
+. Removed the following items: Slime block, Slime ball, Slime retexture, Magma Cube retexture, Skeleton retexture (dead android).
+. Hid rendering of Vindicator's default arm elements via scale function.
+. Hid rendering of Zombie's default arm elements via scale function.
+. Hid rendering of Skeleton's default arm elements via scale function.
+. Increased all weapon models' item frame display z-axis translations by 6 clicks or 1.5 units.
+. Updated Small Flyer and Medium Flyer texture files to new UV layout.
+. Updated lang files with missing "Pascal Spawn Egg" entry.
+. Updated license wording.
+. Updated credits wording.
+. Updated identifier documents.
+
+
+
+4.2.9-50
+Primary
+. New Multi-tier Type Enhanced texture.
+. Added Mooshroom model replacer, duplicate of Cow model replacer.
+. The following affect Small Stubby, Small Biped, Large Biped, Multi-tier Type, Small Flyer, Medium Flyer models and their respective variants:
+   - New per-entity eye-blinking animation.
+   - New passive-hostile-inactive-friendly eye color behavior.
+   - New eye cube elements; this should workaround base-emissive z-fighting for most of the obvious cases. OptiFine should get to fixing it, though.
+. New Multi-legged Goliath texture variant: Boku-Shi.
+. Assigned CustomModelData numbers to all vanilla swords and axes.
+. New, more game-accurate Chest and Trapped Chest models and textures.
+   - Introduced chest lock visibility condition.
+   - Increased texture resolution from 16x to 32x.
+   - Updated model root groups to match newest JEM template root group properties.
+
+Secondary
+. Carried over 4.2.7's Small Stubby (Desert) draft texture changes to variant 2 texture file.
+. Reduced Small Flyer full-body .rx rotation when it is staring at an object at a higher level than its own.
+. Added Multi-tier Type Random functionality.
+. Edited Spider and Cave Spider Random properties to account for Boki-Shi weights.
+. Added hostile eye-linger behavior for applicable entities. Should cover vanilla Minecraft oddity where entity momentarily loses its aggression while navigating terrain.
+   - Zombified Piglin and Zombie Villager: hostile-eye color expiration after max 1440 ticks.
+   - All other applicable entities: persistent hostile-eye color when mob state fulfills condition.
+. Linked Drowned and Zombified Piglin arms to opposing leg limbs .rx.
+. Linked Piglin and Piglin Brute arms to same-side arm limbs .rx.
+. Clamped Small Exploder and Small Biped leg .rx rotations.
+. Added blank mooshroom mushroom textures.
+. Added Medium Flyer animated flight unit light textures.
+. Tweaked Ko-Shi and Ro-Shi textures for eye-hole alignment.
+. Removed Lily of the Valley unused blockstate files.
+. Updated identifiers.
+. Updated license wording.
+. Updated lang files and cleaned ja_jp lang file of some incomplete localizations.
+. Cleaned up CEM resources.
+
+
+
+4.2.8-49
+Primary
+. Changed license to CC BY-NC-SA 4.0.
+
+
+
+4.2.7-48
+Primary
+. The following animation adjustments affect Small Stubby and Multi-tier Type models:
+   - Clamped .rx leg rotations.
+   - Adjusted leg rotation multipliers.
+   - Removed feet group animation statements. Hopefully fixes the wobbly-feet bug.
+. The following animation adjustments affect Small Biped models:
+   - Added tilt forward.
+   - Removed Stubby-esque tilt backward when moving.
+   - Reduced sin() impact when limb_speed > 0.11.
+   - Adjusted forearm sin() multiplier from 1/45 to 1/40.
+   - Unlinked var.moving_counter from is_aggressive.
+. The following animation adjustments affect Small Exploder models:
+   - Added tilt forward.
+   - Removed Stubby-esque tilt backward when moving.
+   - Reduced sin() impact when limb_speed > 0.11.
+. Added hand texture details for Piglin model replacer texture defaults and variants. Eliminates z-fighting.
+. Added various variant-unique texture details for Small Stubby (Desert)'s draft texture.
+. Removed Lunar Tear (Lily of the Valley replacer).
+. Removed Nether-related models and textures.
+. Updated pack format number from 13 to 15.
+. Updated en_us lang file.
+. Updated identifiers documents.
+. Updated credits.txt wording.
+. Updated support.txt wording.
+
+
+
+4.2.6-47
+Primary
+. Added sounds.json. Modifies various entity ambient, hurt, and step sounds as appropriate by redirecting sound events to vanilla resources.
+. Added sounds/eff/silent.ogg.
+. Fixed incorrect file path for OptiFine Anim Blaze Ancillary 2 texture parts.
+. Updated pack format number from 12 to 13.
+
+
+
+4.2.5-46
+Primary
+. Purged Container and tab textures. Partially a band-aid solution. Resolves texture issues when updating from 1.19.2 to 1.19.3. Inventory and Container textures are no longer a focus of this pack.
+. Removed spectator widgets.
+. Switched Main Menu background from dark to light.
+. Updated pack format number from 10 to 12.
+. Updated lang files: removed font colors for containergroup, itemgroup, and entity names as they're no longer necessary.
+
+
+
+4.2.4-45
+Primary
+. Adjusted Medium Flyer model to fix incorrectly placed elements due to element flip method.
+. Fixed floating Medium Exploder model when standing.
+. Passed CEM animation adjustments from Medium Biped to Medium Exploder model.
+. Renamed Special Pedestal as Glow Pedestal.
+. Updated lang files.
+. Updated identifiers.
+. Removed footprint.png particle texture.
+
+
+
+4.2.3-44
+Primary
+. Fixed floating Medium Biped model when standing.
+. Adjusted Medium Biped animation variables to smooth state-to-state transitions in limited aspects.
+. Adjusted Medium Flyer Standard and Enhanced texture colors.
+. Adjusted Medium Flyer Standard and Enhanced emissive texture colors.
+. Updated Medium Flyer texture UV.
+. Updated license.
+
+
+
+4.2.2-43
+Primary
+. Fixed Medium Flyer incorrectly displaying element UV rotations.
+   - This is attempt 2. Method changed from Element Flip + Manual UV Placement to Element Rotation.
+. Updated license. 
+   - These changes provide a more understandable format, relaxes clauses, and aligns clauses with those of CC licenses.
+. Removed all copyrighted sound effects.
+
+Secondary
+. Altered Medium Flyer Standard and Enhanced textures.
+. Altered Medium Flyer animations.
+. Updated credits.
+
+
+
+4.2.1-42
+Primary
+. New Exploder model for Small Exploder and Medium Exploder.
+   - Contains two physically different variant models in one file.
+   - Uses OptiFine Random to decide which variant appears.
+   - Rename with a variant name to force a variant appearance.
+. Fixed disappearing Medium Flyer when firing projectile.
+   - Affected files: ghast_shooting.png, ghast_shooting2.png.
+. Fixed Medium Flyer flickering eyes when firing projectile.
+   - Affected files: ghast_shooting_e.png, ghast_shooting2_e.png.
+   - (Note: Other such cases of z-fighting with emissive layers/overlays are due to an issue on OptiFine's end)
+. New animated Exploder eye texture.
+. New animated Flight Unit Light texture.
+
+Secondary
+. Updated placeholder textures to eliminate hand segment z-fighting and represent new hand designs.
+   - Affected entities: Zombie, Husk, Drowned, Villager, Creeper, Vindicator.
+. Updated Creeper custom model replacer textures to new UV layout.
+. Updated EN_US and JA_JP lang files.
+. Updated identifier documents.
+. Altered changelog file structure to separate based on pack major version bumps rather than game major version bumps.
+. Cleaned CEM non-user resources.
+
+
+
+4.2.0-41
+Primary
+. Complete redesign of robot base model. This is version 3 with improved cube symmetry, vertex layout, modularity, and animation capability. 
+   - Over double the vertices compared to version 2. This means double the performance hit.
+   - Idle and movement (walk/run) animations use explicit, hierarchical bone setups for more accuracy and versatility in joint rotation and element transformation.
+   - Model textures follow the latest Machine Head weapon texture for design consistency.
+   - Increased standard texture resolution from 16x to 32x.
+. New Multi-tier Type model. Replaces Cow.
+   - Element (tier) visibility changes dynamically based on health percentage. Starts at 5.
+. New Small Stubby model for Standard, Villager, and Rampaging. 
+   - Improved Small Stubby arm-flail attack animation.
+. New Small Stubby variant model for Standard, Desert, and Enhanced.
+. New Small Biped model for Standard, Weapon-equipped, Enhanced, and Rampaging.
+. New Medium Biped model for Standard, Jean-Paul, and Enhanced.
+. New Small Flyer model for Standard and Enhanced.
+. New Medium Flyer model for Standard and Enhanced.
+. Improved overall texture detail accuracy. Texture Quality (Shading) will come with a later version.
+. Improved overall animation accuracy.
+
+Secondary
+. The following textures (OptiFine Random and Default) and accompanying emissive overlays were updated to their new respective UV layouts:
+   - Zombie, Drowned, Husk, Villager, Piglin, Piglin Brute, Zombie Villager, Zombified Piglin, Vindicator, Blaze, Ghast.
+. New Multi-tier Type texture and emissive overlay. Red Mooshroom and Brown Mooshroom are currently no different than the standard Cow texture.
+. Centered Pod model coordinates.
+. Adjusted Pod model GUI translation.
+. Adjusted Machine Gun model GUI rotation.
+. Fixed bow models not being overwritten by alternate models when invoking predicates.
+. Renamed "Small Stubby (City Ruins)" as "Small Stubby".
+. Renamed "Small Biped (armed)" as "Small Biped: Weapon-equipped". 
+. Updated EN_US and JA_JP lang files.
+. Updated identifier documents.
+. Cleaned CEM non-user resources.
+. Removed raw lang files.
+
+
+
+4.1.0-40
+Primary
+. Adjusted Faith model color shading.
+. Color-corrected Cruel Blood Oath handle.
+. Fixed Factory Iron Door model reference errors and corrected naming scheme of related models.
+. Switched Spider and Cave Spider animation conditional statement is_on_ground to is_aggressive.
+. Moved Spider and Cave Spider custom model cubes from neck group to body group.
+
+
+
+4.0.4-39
+Primary
+. Changed pack_format number for 1.19.
+. Replaced Wooden Axe with Iron Will. Accordingly removed r-Beastlord model variant.
+. Updated lang files.
+
+
+
+4.0.3-38
+Primary
+. New Type-4O Fist model. Accessible via CIT. Texture includes emissive layer.
+. New Iron Will model. Accessible via CIT.
+. New Faith model. Accessible via CIT.
+. New Spear of the Usurper model. Accessible via CIT.
+. Set NFCS for Type-4O Lance when in player's off-hand.
+
+Secondary
+. Removed Ambient Occlusion boolean setting in model files.
+. Removed sword_0.png.
+. Reorganized model texture file paths.
+. Set variable for texture in model files.
+. Re-scaled GUI displays for almost every weapon.
+. Adjusted Machine Gun GUI display rotation.
+
+
+
+4.0.2-37
+Primary
+. New Type-4O Lance. Accessible via CIT. Texture includes emissive layer.
+. New Emil Head combat bracer. Accessible via CIT.
+. New Machine Head combat bracer. Accessible via CIT.
+. Fixed Cave Spider model. Duplicated Spider model to resolve issue of missing cubes.
+. Set Beastlord to replace Wooden Axe.
+. Set Cruel Oath and Cruel Blood Oath to replace Diamond Sword and Diamond Axe, respectively.
+
+Secondary
+. Sorted Type-4O Lance model cubes into groups.
+. Adjusted Iron Pipe third-person z-axis translation to fix model clipping through player's hand.
+. Adjusted Machine Sword third-person z-axis translation.
+. Adjusted Virtuous Grief GUI display.
+. Adjusted Cruel Lament GUI display.
+. Adjusted Virtuous Dignity, Cruel Arrogance, and Machine Spear model placement in third-person and first-person.
+. Fixed typo in ja_identifiers.txt.
+. Renamed "Emil's Face" as "Emil Mask".
+. Formatted CIT section of identifier documents.
+. Color-corrected Type-4O Sword and Type-4O Blade handle.
+. Removed r-virtuous_dignity vanilla replacer model.
+. Updated lang files.
+
+
+
+4.0.1-36
+Primary
+. Fixed Fire Charge display property when held in third-person view.
+. Fixed Fire Charge texture z-fighting.
+. Added Type-4O Blade as Stone Axe replacer.
+. Added Pedestal as Item Frame replacer.
+. Updated identifiers with new entries.
+. Updated lang files with new entries.
+. Renamed Cave Spider as Mini Multi-legged Goliath-class.
+. Enabled OptiFine Random for Cave Spiders. Mini Multi-legged Goliath-class entities can be renamed as Ko-Shi, Ro-Shi, or So-Shi.
+
+
+
+4.0.0-35
+Primary
+. New Type-4O Sword model and texture. CIT enabled. Replaces Stone Sword.
+. New Pedestal model and texture. Replaces Glow Item Frame.
+. Improved Machine Sword model.
+. Removed Virtuous Grief vanilla item replacer. This weapon model is now only accessible through CIT.
+
+Secondary
+. New r-type-4o_sword.json model file.
+. New Machine Sword texture file.
+. Slightly adjusted Type-4O Blade model.
+. Color-corrected handle texture of Type-4O Blade.
+. Switched color code for Vanilla replacers from dark_gray to white.
+. Significantly improved various display properties of all applicable weapon models.
+. Adjusted ground display properties of all applicable weapon models for the new Pedestal model.
+. Removed old custom emissive item frame/propper model and texture.
+. Updated lang files.
+. Updated identifiers.

@@ -1,0 +1,46 @@
+Preface: This resource pack is intended to be useable on at least machines running last-gen iGPUs. 
+This pack only modifies what is necessary and appropriate; it doesn't provide a wide-reaching 
+overhaul of Minecraft's textures and models. Furthermore, as each file in this pack is intentionally 
+included to be used with a separately-placed file, load order priority reduction is suggested 
+against. Support, if any, is only provided for the latest resource pack version.
+
+---
+
+Support
+
+1. "I'm encountering performance issues." 
+Allocate more RAM for Minecraft in JVM Arguments, use a newer JDK version, and/or configure your 
+OptiFine and Minecraft settings. In particular, lower your in-game render and simulation distance.
+
+2. "Is [​insert resource pack name] compatible?"
+If you know enough about that resource pack to certify compatibility, you should in most cases be 
+able to safely give it more priority. Otherwise, follow these rules:
+A. If a resource pack modifies either models OR textures, it must have lower priority than the 
+NieR:Automata Resource Pack.
+B. If a resource pack modifies both models AND corresponding textures, you can vary pack priorities 
+depending on what you want to see and from where. However, acknowledge that some features may not 
+work as intended should a resource pack author not cover all of their edge cases.
+C. If in doubt, maximize this pack's load order priority.
+
+3. "Some of my items and mobs have weird textures."
+There are multiple possible reasons: insufficient resource pack priority, incorrect OptiFine or 
+Minecraft game version, missing OptiFine mod, conflicting Forge/Fabric mod or Data Pack, incorrect 
+in-game CEM or CIT setting, or even an outdated resource pack version. Ensure you have the 
+requirements to the letter and that you are using the latest available pack version.
+
+4. "I've checked my Minecraft installation and I still have non-performance issues."
+If there are any issues you can't resolve that stem from the resource pack itself, report the issue 
+and use a prior version if it is downloadable on Modrinth or CurseForge.
+
+---
+
+General Tips
+
+1. Avoid using shaders that affect End dimension lighting and Blaze and Wither emissive effects. If 
+in doubt, remove or delete any setting or file that will affect those three in-game features. Or, 
+you may choose to not use shaders with this resource pack.
+
+2. If using shaders, manually adjust emissive lighting within your shader's options if the option is 
+available.
+
+3. Disable "smoke animations" in OptiFine settings to prevent smoke from obscuring Blazes.

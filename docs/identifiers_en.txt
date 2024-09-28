@@ -1,0 +1,108 @@
+Blocks
+• Dark Oak, Nether Brick, Spruce Wood fences and fence gates -> Various models based on designs from NieR:Automata
+• Iron Door -> Factory Iron Door
+• Item Frame -> Pedestal
+• Glow Item Frame -> Glow Pedestal
+
+
+Items
+Vanilla Remodels:
+• Wooden Sword -> Cypress Stick
+• Wooden Axe -> Iron Will
+• Stone Sword -> Type-4O Sword
+• Stone Axe -> Type-4O Blade
+• Iron Sword -> Iron Pipe
+• Iron Axe -> Machine Axe
+• Golden Sword -> Machine Sword
+• Golden Axe -> Machine Spear
+• Diamond Sword -> Cruel Oath
+• Diamond Axe -> Cruel Blood Oath
+• Netherite Sword -> Virtuous Contract
+• Netherite Axe -> Virtuous Treaty
+• Bow -> Pod: Default
+• Crossbow -> Machine Gun
+• Fire Charge -> Purple Enemy Projectile
+• Ender Eye -> Emil Mask
+• TNT -> Android Black Box
+
+Custom Item Models (Obtain through either CustomModelData or OptiFine CIT):
+• Bow -> 
+	"Grimoire Weiss"
+	"Pod 042"
+	"Pod 153"
+	"Pod: Default"
+• Swords and Axes of any vanilla material -> 
+	"Beastlord" (99)
+	"Virtuous Contract" (100)
+	"Virtuous Treaty" (101)
+	"Virtuous Dignity" (102)
+	"Virtuous Grief" (103)
+	"Cruel Oath" (104)
+	"Cruel Blood Oath" (105)
+	"Cruel Arrogance" (106)
+	"Cruel Lament" (107)
+	"Machine Sword" (108)
+	"Machine Axe" (109)
+	"Machine Spear" (110)
+	"Machine Head" (111)
+	"Type-4O Sword" (112)
+	"Type-4O Blade" (113)
+	"Type-4O Lance" (114)
+	"Type-4O Fist" (115)
+	"Cypress Stick" (116)
+	"Faith" (117)
+	"Iron Pipe" (118)
+	"Iron Will" (119)
+	"Spear of the Usurper" (120)
+	"Emil Head" (121)
+
+
+Entities
+Vanilla Retextures:
+• Wither Skeleton -> Dead Android - melee
+
+Custom Entity Models:
+• Cow -> Multi-tier Type
+• Mooshroom -> Multi-tier Type (Enhanced)
+• Zombie -> Small Stubby
+• Skeleton -> Small Stubby: Gun-equipped
+• Husk -> Small Stubby (Desert)
+• Villager -> Small Stubby (Villager)
+• Zombie Villager -> Small Stubby (Rampaging)
+• Drowned -> Small Biped
+• Piglin -> Small Biped: Weapon-equipped
+• Piglin Brute -> Small Biped (Enhanced)
+• Zombified Piglin -> Small Biped (Rampaging)
+• Vindicator -> Medium Biped; Satre (Jean-Paul)
+• Pillager -> Medium Biped: Gun-equipped
+• Warden -> Goliath Biped
+• Creeper -> Exploder
+• Blaze	-> Small Flyer
+• Ghast	-> Medium Flyer
+• Spider -> Multi-legged Goliath-class (Ko-Shi; Ro-Shi; So-Shi; Boku-Shi)
+• Cave Spider -> Mini Multi-legged Goliath-class (So-Shi; Boku-Shi)
+• Enderman -> Shade
+• Skeleton Horse -> Medium Quadruped
+• Wither -> Beauvoir (Simone)
+• Wither Skull -> Hacking Wave
+• Ender Dragon -> Hegel
+• Iron Golem -> Pascal
+• Wandering Trader -> Emil (shop)
+• Bed -> Vending Machine / Save Point
+• Chests / Trapped Chests -> NieR:Automata chest designs
+
+CEM Random (rename the following entities with name tags and an anvil):
+• Multi-tier Type -> Standard, Enhanced
+• Multi-tier Type (Enhanced) -> Standard, Enhanced
+• Small Stubby -> Standard, Enhanced
+• Small Stubby (Desert) -> Standard, Desert, Enhanced
+• Small Biped -> Standard, Enhanced
+• Small Biped: Weapon-equipped -> Standard, Enhanced
+• Small Biped (Enhanced) -> Standard, Enhanced
+• Medium Biped -> Standard, Enhanced, Satre
+• Goliath Biped -> Standard, Enhanced
+• Small Flyer -> Standard, Enhanced
+• Medium Flyer -> Standard, Enhanced
+• Exploder -> Small Exploder, Medium Exploder
+• Multi-legged Goliath-class -> Ko-Shi, Ro-Shi, So-Shi, Boku-Shi
+• Mini Multi-legged Goliath-class -> Ko-Shi, Ro-Shi, So-Shi, Boku-Shi
