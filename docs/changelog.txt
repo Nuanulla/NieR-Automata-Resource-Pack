@@ -1,4 +1,10 @@
 Change Log
+4.2.15-56
+Primary
+. Update: Goliath Biped (Warden) Step and Hurt sounds.
+
+
+
 4.2.14-55
 Primary
 . Optimized script. Changed use of in() condition to '==' comparison for hostility checker.

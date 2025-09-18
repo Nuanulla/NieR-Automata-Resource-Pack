@@ -382,5 +382,24 @@
             "mob/sheep/step4",
             "mob/sheep/step5"
         ]
+    },
+    "entity.warden.hurt": {
+        "replace": true,
+        "sounds": [
+			"mob/blaze/hit1",
+            "mob/blaze/hit2",
+            "mob/blaze/hit3",
+            "mob/blaze/hit4"
+        ]
+    },
+    "entity.warden.step": {
+        "replace": true,
+        "sounds": [
+            "mob/sheep/step1",
+            "mob/sheep/step2",
+            "mob/sheep/step3",
+            "mob/sheep/step4",
+            "mob/sheep/step5"
+        ]
     }
 }

@@ -16,11 +16,3 @@ Test Environment:
 View support.txt for help.
 
 Version numbers pre-4.0.0 are formatted as qualifications of progress. Versions 4.0.0 and after follow quasi-Semantic Versioning.
-
----
-
-Internal file signature: 202312291201421455
-(Not really intended for users. Only for author's use.
-Insufficient for verifying file integrity.
-Provided only for simple version-checking. Don't
-alter as user if providing as reference code)
